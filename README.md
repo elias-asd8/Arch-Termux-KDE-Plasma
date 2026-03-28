@@ -39,4 +39,8 @@ For the port type in
 ```bash
 5902
 ```
-and then for the "VNC Password" section go to ur arch terminal, then type ur password in. Then in the "VNC Password" section type the password u made in arch linux.)
+and then for the "VNC Password" section go to ur arch terminal, type
+```bash
+vncpasswd
+```
+then type ur password in. Then in the "VNC Password" section type the password u made in arch linux.)
