@@ -3,7 +3,7 @@ Dis is a guide to get plasma KDE working on Termux arch Linux
 
 So first we need to see if all pkgs are up-to-date, getting proot-distro and getting arch Linux in it.
 ```bash
-pkg update && pkg upgrade && pkg install proot-distro && ok proot-distro install archlinux && pd login archlinux --shared-tmp
+pkg update && pkg upgrade && pkg install proot-distro && proot-distro install archlinux && pd login archlinux --shared-tmp
 ```
 ok now in arch we need to update all pkgs, we can do that by executing
 ```bash
