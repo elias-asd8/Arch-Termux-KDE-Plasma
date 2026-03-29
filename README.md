@@ -44,3 +44,5 @@ and then for the "VNC Password" section go to ur arch terminal, type
 vncpasswd
 ```
 then type ur password in. Then in the "VNC Password" section type the password u made in arch linux.)
+
+NOTE: Results may vary depending on your device and Android version. VNC issues are common and may not have a fix for every setup.
