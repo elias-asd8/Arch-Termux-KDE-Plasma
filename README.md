@@ -5,12 +5,12 @@ So first we need to see if all pkgs are up-to-date, getting proot-distro and get
 ```bash
 pkg update && pkg upgrade && pkg install proot-distro && proot-distro install archlinux && pd login archlinux --shared-tmp
 ```
-ok now in arch we need to update all pkgs, we can do that by executing
+(btw shared tmp is crucal for this, it binds ur ram and cpu to the distro) ok now in arch we need to update all pkgs, we can do that by executing
 ```bash
 pacman -Syu --noconfirm
 ```
 now we need to get the DE (Desktop Environment)
-we need to run
+ and the display we need to run
 ```bash
 pacman -S plasma-desktop tigervnc --noconfirm
 ```
@@ -46,3 +46,4 @@ vncpasswd
 then type ur password in. Then in the "VNC Password" section type the password u made in arch linux.)
 
 NOTE: Results may vary depending on your device and Android version. VNC issues are common and may not have a fix for every setup.
+WARNING: I CAN NOT GUARANTEE THIS WORKS.
