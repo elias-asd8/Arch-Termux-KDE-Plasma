@@ -47,3 +47,4 @@ then type ur password in. Then in the "VNC Password" section type the password u
 
 NOTE: Results may vary depending on your device and Android version. VNC issues are common and may not have a fix for every setup.
 WARNING: I CAN NOT GUARANTEE THIS WORKS.
+(in the bvnc file just click open raw amd it will install)
